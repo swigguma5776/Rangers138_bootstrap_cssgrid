@@ -1,0 +1,12 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+.col-2 h1 {
+    color: goldenrod; 
+}
+
+.sm-img > img {
+    height: 180px; 
+}

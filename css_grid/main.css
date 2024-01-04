@@ -1,0 +1,75 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 130px);
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.bg-image {
+    background-image: url("/images/HTML-and-CSS-Jokes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border-radius: 10px;
+}
+
+
+#code {
+    grid-column-start: 3;
+    grid-column-end: 5; 
+}
+
+#sleep {
+    grid-column-start: 3;
+    grid-column-end: 5; 
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#repeat {
+    grid-column-start: 3;
+    grid-column-end: 5; 
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline; 
+}
+
+.info > div {
+    max-width: 90%;
+}
+
+.info > h1 {
+    color: goldenrod; 
+}
+
+.sm-image > img{
+    width: 100%;
+    height: 100%;
+}
+
+
